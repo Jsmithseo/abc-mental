@@ -55,6 +55,12 @@ const posts = [
         title: "R.A.C.E. Formula for Mental Toughness",
         excerpt: "Discover the R.A.C.E. Formula — a proven method for building mental toughness in athletes and performers. Learn how to overcome mental blocks, silence negative thoughts, and unlock your ideal performance state.",
         slug: "/blog/blog8"
+      },
+      {
+        id: 9,
+        title: "Chapter 3: Awareness – The Secret to Mental Toughness",
+        excerpt: "Awareness is absolutely vital for your success as a young athlete. Its one of the pillars of sports psychology and the first step toward mastering your mental game. Lets break down why awareness matters—and how you can build it.",
+        slug: "/blog/blog9"
       }
       
       
