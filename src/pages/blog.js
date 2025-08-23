@@ -58,9 +58,15 @@ const posts = [
       },
       {
         id: 9,
-        title: "Chapter 3: Awareness – The Secret to Mental Toughness",
+        title: "Chapter 3: Awareness | The Secret to Mental Toughness",
         excerpt: "Awareness is absolutely vital for your success as a young athlete. Its one of the pillars of sports psychology and the first step toward mastering your mental game. Lets break down why awareness matters—and how you can build it.",
         slug: "/blog/blog9"
+      },
+      {
+        id: 10,
+        title: "Top 5 Mistakes Sports Parents Make (And What To Do Instead",
+        excerpt: "Most parents want to help, but good intentions can stall progress. This post breaks down the five most common mistakes—activity vs. progress, talent talk, skill vs. performance, interference, and state plans—and gives simple routines to fix each one. Build consistency under pressure without adding more chaos.",
+        slug: "/blog/blog10"
       }
       
       
