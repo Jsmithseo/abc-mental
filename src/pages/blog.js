@@ -67,6 +67,12 @@ const posts = [
         title: "Top 5 Mistakes Sports Parents Make (And What To Do Instead",
         excerpt: "Most parents want to help, but good intentions can stall progress. This post breaks down the five most common mistakes—activity vs. progress, talent talk, skill vs. performance, interference, and state plans—and gives simple routines to fix each one. Build consistency under pressure without adding more chaos.",
         slug: "/blog/blog10"
+      },
+      {
+        id: 11,
+        title: "Three Reasons Kids Struggle in Youth Sports",
+        excerpt: "Most youth-sports setbacks aren’t about talent—they’re about attention, emotion, and load. Here are three patterns and simple fixes coaches, parents, and players can use.",
+        slug: "/blog/blog11"
       }
       
       
