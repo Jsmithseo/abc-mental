@@ -38,9 +38,9 @@ export default function Home() {
                   </Button>
                 </Link> */}
 
-                <Link href="/contact" passHref legacyBehavior>
+                <Link href="/hybrid-training" passHref legacyBehavior>
                   <Button color="success" size="lg" className="fw-bold">
-                    Start Training
+                    Start Hybrid Program
                   </Button>
                 </Link>
               </div>
