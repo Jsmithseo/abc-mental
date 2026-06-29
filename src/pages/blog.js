@@ -100,10 +100,16 @@ const posts = [
       "Use the offseason to build durable skills—technical touch, decision speed, and body/mind capacity—without burnout. A practical weekly plan, micro-drills, and checklists for coaches, parents, and players.",
     slug: "/blog/blog12",
   },
+  {
+    id: 13,
+    title: "The Decision Window: Why Young Athletes Freeze Under Pressure",
+    excerpt:
+      "Learn how the Decision Window helps young athletes improve awareness, decision-making, and confidence under pressure. A mental performance framework for athletes, parents, and coaches.",
+    slug: "/blog/blog13",
+  },
 ];
 
 export default function BlogPage() {
-  // Reverse by id so newest (highest id) appears first
   const postsDesc = [...posts].sort((a, b) => b.id - a.id);
 
   return (
@@ -111,9 +117,12 @@ export default function BlogPage() {
       <Head>
         <title>Blog | ABC Mental Toughness</title>
       </Head>
+
       <MainNavbar />
+
       <Container className="py-5">
         <h1 className="text-center mb-4">ABC Mental Toughness Blog</h1>
+
         <Row>
           {postsDesc.map((post) => (
             <Col md="4" className="mb-4" key={post.id}>
@@ -131,8 +140,8 @@ export default function BlogPage() {
         </Row>
       </Container>
 
-      {/* (Optional) remove excessive <br/>s; layout handled by spacing utilities */}
       <Footer />
     </>
   );
 }
+
